@@ -1,0 +1,16 @@
+//Query all columns for a city in CITY with the ID 1661.
+
+//MYSQL
+SELECT * FROM CITY
+WHERE ID=1661;
+
+//MSSQL
+SELECT * FROM CITY
+WHERE ID=1661;
+
+//MONGODB
+db.find({ID:1661});
+
+//POSTGRESQL
+SELECT * FROM CITY 
+WHERE ID=1661

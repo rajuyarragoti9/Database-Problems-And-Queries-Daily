@@ -1,0 +1,16 @@
+//Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+//MYSQL
+SELECT * FROM CITY
+WHERE COUNTRYCODE='JPN';
+
+//MSSQL
+SELECT * FROM CITY
+WHERE COUNTRYCODE='JPN';
+
+//MONGODB
+db.CITY.find({COUNTRYCODE:'JPN'});
+
+//POSTGRESQL
+SELECT * FROM CITY
+WHERE COUNTRYCODE='JPN';
